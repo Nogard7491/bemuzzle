@@ -1,0 +1,9 @@
+.block {
+  background-color: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-radius: 3px; }
+

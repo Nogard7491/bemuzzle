@@ -1,0 +1,21 @@
+@import "../vars/all";
+
+$block-background-color: $light-color !default;
+$block-border-width: $border-width !default;
+$block-border-style: solid;
+$block-border-color: $border-color !default;
+$block-border-radius: $border-radius !default;
+$block-padding: $padding !default;
+$block-box-sizing: border-box;
+
+.block {
+  background-color: $block-background-color;
+  padding: $block-padding;
+  box-sizing: $block-box-sizing;
+  border: {
+    width: $block-border-width;
+    style: $block-border-style;
+    color: $block-border-color;
+    radius: $block-border-radius;
+  }
+}
