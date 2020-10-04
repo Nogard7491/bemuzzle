@@ -1,23 +1,15 @@
-$light-color: #ffffff;
-$light-gray-color: #f1f1f1;
-$gray-color: #d3d3d3;
-$dark-gray-color: #bfbfbf;
-$dark-color: #515151;
-
-$default-color: #515151 !default;
-$primary-color: #2957ab !default;
-$secondary-color: #cc64bd !default;
-$info-color: #6cbbe1 !default;
-$success-color: #5b9e5b !default;
-$warning-color: #df9f45 !default;
-$danger-color: #d75c58 !default;
-
-$default-text-color: #444444 !default;
-$average-text-color: #c4c4c4 !default;
-$inverse-text-color: #ffffff !default;
-$placeholder-text-color: #777777 !default;
-
-$default-link-color: #2962ab !default;
-$visited-link-color: #794599 !default;
-
-$border-color: $gray-color !default;
+:root {
+  --default-color: #515151;
+  --primary-color: #2957ab;
+  --secondary-color: #cc64bd;
+  --info-color: #6cbbe1;
+  --success-color: #5b9e5b;
+  --warning-color: #df9f45;
+  --danger-color: #d75c58;
+  --light-color: #ffffff;
+  --light-gray-color: #f1f1f1;
+  --gray-color: #d3d3d3;
+  --dark-gray-color: #b5b5b5;
+  --dark-color: #515151;
+  --border-color: var(--gray-color, #d3d3d3);
+}

@@ -1,9 +1,40 @@
+:root {
+  --default-color: #515151;
+  --primary-color: #2957ab;
+  --secondary-color: #cc64bd;
+  --info-color: #6cbbe1;
+  --success-color: #5b9e5b;
+  --warning-color: #df9f45;
+  --danger-color: #d75c58;
+  --light-color: #ffffff;
+  --light-gray-color: #f1f1f1;
+  --gray-color: #d3d3d3;
+  --dark-gray-color: #b5b5b5;
+  --dark-color: #515151;
+  --border-color: var(--gray-color, #d3d3d3); }
+
+:root {
+  --border-width: 1px;
+  --border-radius: 3px; }
+
+:root {
+  --spacing: 15px;
+  --margin: var(--spacing, 15px);
+  --padding: var(--spacing, 15px); }
+
 .block {
-  background-color: #ffffff;
-  padding: 15px;
-  box-sizing: border-box;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #d3d3d3;
-  border-radius: 3px; }
+  --block-background-color: var(--light-color, white);
+  --block-border-width: var(--border-width, 1px);
+  --block-border-style: solid;
+  --block-border-color: var(--border-color, #d3d3d3);
+  --block-border-radius: var(--border-radius, 3px);
+  --block-padding: var(--padding, 15px);
+  --block-box-sizing: border-box;
+  background-color: var(--block-background-color);
+  padding: var(--block-padding);
+  box-sizing: var(--block-box-sizing);
+  border-width: var(--block-border-width);
+  border-style: var(--block-border-style);
+  border-color: var(--block-border-color);
+  border-radius: var(--block-border-radius); }
 
