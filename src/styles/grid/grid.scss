@@ -61,25 +61,25 @@ $grid-vertical-aligns: (
     }
   }
 
-  @each $key, $value in $grid-screen-sizes {
+  @each $screen-key, $screen-value in $grid-screen-sizes {
 
-    @media screen and (max-width: $value) {
+    @media screen and (max-width: $screen-value) {
 
       @for $i from 1 through $grid-column-number {
-        &__col_#{$i}\@#{$key} {
+        &__col_#{$i}\@#{$screen-key} {
           grid-column-end: span $i;
         }
       }
 
-      @each $key2, $value2 in $grid-horizontal-aligns {
-        &__row_horizontal_#{$key2}\@#{$key} {
-          justify-items: $value2;
+      @each $horizontal-align-key, $horizontal-align-value in $grid-horizontal-aligns {
+        &__row_horizontal_#{$horizontal-align-key}\@#{$screen-key} {
+          justify-items: $horizontal-align-value;
         }
       }
 
-      @each $key2, $value2 in $grid-vertical-aligns {
-        &__row_vertical_#{$key2}\@#{$key} {
-          align-items: $value2;
+      @each $vertical-align-key, $vertical-align-value in $grid-vertical-aligns {
+        &__row_vertical_#{$vertical-align-key}\@#{$screen-key} {
+          align-items: $vertical-align-value;
         }
       }
     }

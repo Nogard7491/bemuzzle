@@ -1,0 +1,46 @@
+@import "../vars/all";
+
+$display-keys: (
+        inherit,
+        initial,
+        block,
+        inline-block,
+        inline,
+        grid,
+        inline-grid,
+        table,
+        inline-table,
+        table-caption,
+        table-row,
+        table-row-group,
+        table-column,
+        table-column-group,
+        table-cell,
+        table-header-group,
+        table-footer-group,
+        list-item,
+        run-in,
+        contents,
+        none
+);
+
+.display {
+
+  @each $display-key in $display-keys {
+    &-#{$display-key} {
+      display: $display-key;
+    }
+  }
+
+  @each $screen-key, $screen-value in $screen-sizes {
+
+    @media screen and (max-width: $screen-value) {
+
+      @each $display-key in $display-keys {
+        &_#{$display-key}\@#{$screen-key} {
+          display: $display-key;
+        }
+      }
+    }
+  }
+}
