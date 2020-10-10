@@ -1,4 +1,11 @@
 $font-size: 16px !default;
+$h1-font-size: 2rem !default;
+$h2-font-size: 1.8rem !default;
+$h3-font-size: 1.6rem !default;
+$h4-font-size: 1.4rem !default;
+$h5-font-size: 1.2rem !default;
+$h6-font-size: 1rem !default;
+$headline-font-size: $h1-font-size;
 
 $border-width: 1px !default;
 $border-radius: 3px !default;
@@ -14,4 +21,4 @@ $screen-sizes: (
         md: $screen-md-width,
         sm: $screen-sm-width,
         xs: $screen-xs-width,
-);
+) !default;
