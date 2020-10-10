@@ -1,0 +1,20 @@
+@import "../vars/all";
+
+.margin {
+
+  &_top {
+    margin-top: $margin;
+  }
+
+  &_right {
+    margin-right: $margin;
+  }
+
+  &_bottom {
+    margin-bottom: $margin;
+  }
+
+  &_left {
+    margin-left: $margin;
+  }
+}

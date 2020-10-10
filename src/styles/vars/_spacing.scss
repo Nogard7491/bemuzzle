@@ -1,5 +1,3 @@
-:root {
-  --spacing: 15px;
-  --margin: var(--spacing, 15px);
-  --padding: var(--spacing, 15px);
-}
+$spacing: 15px !default;
+$margin: $spacing !default;
+$padding: $spacing !default;

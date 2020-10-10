@@ -129,6 +129,9 @@ table {
   border-spacing: 0; }
 
 :root {
+  --font-family: Tahoma, sans-serif;
+  --font-size: 16px;
+  --font-weight: normal;
   --default-color: #515151;
   --primary-color: #2957ab;
   --secondary-color: #cc64bd;
@@ -136,25 +139,14 @@ table {
   --success-color: #5b9e5b;
   --warning-color: #df9f45;
   --danger-color: #d75c58;
-  --light-color: #ffffff;
-  --light-gray-color: #f1f1f1;
-  --gray-color: #d3d3d3;
-  --dark-gray-color: #c4c4c4;
-  --dark-color: #515151;
-  --border-color: var(--dark-gray-color, #c4c4c4); }
-
-:root {
-  --border-width: 1px;
-  --border-radius: 3px; }
-
-:root {
-  --spacing: 15px;
-  --margin: var(--spacing, 15px);
-  --padding: var(--spacing, 15px); }
+  --default-link-color: #2962ab;
+  --visited-link-color: #794599;
+  --hovered-link-color: #cc0000; }
 
 html, body {
   font-family: var(--font-family, Tahoma, sans-serif);
-  font-size: var(--font-size, 16px); }
+  font-size: var(--font-size, 16px);
+  font-weight: var(--font-weight, normal); }
 
 .grid {
   display: grid; }
@@ -437,18 +429,35 @@ html, body {
       align-items: stretch; } }
 
 .block {
-  --block-background-color: var(--light-color, white);
-  --block-border-width: var(--border-width, 1px);
-  --block-border-style: solid;
-  --block-border-color: var(--border-color, #c4c4c4);
-  --block-border-radius: var(--border-radius, 3px);
-  --block-padding: var(--padding, 15px);
-  --block-box-sizing: border-box;
-  background-color: var(--block-background-color);
-  padding: var(--block-padding);
-  box-sizing: var(--block-box-sizing);
-  border-width: var(--block-border-width);
-  border-style: var(--block-border-style);
-  border-color: var(--block-border-color);
-  border-radius: var(--block-border-radius); }
+  background-color: #ffffff;
+  padding: 15px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-radius: 3px; }
+
+.margin_top {
+  margin-top: 15px; }
+
+.margin_right {
+  margin-right: 15px; }
+
+.margin_bottom {
+  margin-bottom: 15px; }
+
+.margin_left {
+  margin-left: 15px; }
+
+.padding_top {
+  padding-top: 15px; }
+
+.padding_right {
+  padding-right: 15px; }
+
+.padding_bottom {
+  padding-bottom: 15px; }
+
+.padding_left {
+  padding-left: 15px; }
 

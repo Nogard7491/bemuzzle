@@ -1,0 +1,9 @@
+@import "vars/all";
+
+html, body {
+  font: {
+    family: var(--font-family, #{$font-family});
+    size: var(--font-size, #{$font-size});
+    weight: var(--font-weight, #{$font-weight});
+  }
+}

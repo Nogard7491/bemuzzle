@@ -1,0 +1,17 @@
+@import "vars/all";
+
+:root {
+  --font-family: #{$font-family};
+  --font-size: #{$font-size};
+  --font-weight: #{$font-weight};
+  --default-color: #{$default-color};
+  --primary-color: #{$primary-color};
+  --secondary-color: #{$secondary-color};
+  --info-color: #{$info-color};
+  --success-color: #{$success-color};
+  --warning-color: #{$warning-color};
+  --danger-color: #{$danger-color};
+  --default-link-color: #{$default-link-color};
+  --visited-link-color: #{$visited-link-color};
+  --hovered-link-color: #{$hovered-link-color};
+}

@@ -1,0 +1,20 @@
+@import "../vars/all";
+
+.padding {
+
+  &_top {
+    padding-top: $padding;
+  }
+
+  &_right {
+    padding-right: $padding;
+  }
+
+  &_bottom {
+    padding-bottom: $padding;
+  }
+
+  &_left {
+    padding-left: $padding;
+  }
+}

@@ -1,4 +1,17 @@
-:root {
-  --border-width: 1px;
-  --border-radius: 3px;
-}
+$font-size: 16px !default;
+
+$border-width: 1px !default;
+$border-radius: 3px !default;
+
+$screen-xl-width: 1200px !default;
+$screen-lg-width: 992px !default;
+$screen-md-width: 768px !default;
+$screen-sm-width: 576px !default;
+$screen-xs-width: 320px !default;
+$screen-sizes: (
+        xl: $screen-xl-width,
+        lg: $screen-lg-width,
+        md: $screen-md-width,
+        sm: $screen-sm-width,
+        xs: $screen-xs-width,
+);

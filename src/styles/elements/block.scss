@@ -1,0 +1,13 @@
+@import "../vars/all";
+
+.block {
+  background-color: $light-color;
+  padding: $padding;
+  box-sizing: border-box;
+  border: {
+    width: $border-width;
+    style: solid;
+    color: $border-color;
+    radius: $border-radius;
+  }
+}
