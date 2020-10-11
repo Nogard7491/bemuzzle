@@ -52,6 +52,10 @@ module.exports = {
             './index.js',
             './index.scss',
         ],
+        excluded: [
+            './excluded.js',
+            './excluded.scss',
+        ],
     },
     output: {
         path: __dirname + '/dist',

@@ -1,1 +1,6 @@
- text=auto eol=lf
+text=auto eol=lf
+
+dist/fonts/ export-ignore
+src/pages/ export-ignore
+src/excluded.js export-ignore
+src/excluded.scss export-ignore
