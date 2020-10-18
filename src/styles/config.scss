@@ -5,14 +5,9 @@
   --font-weight: #{$font-weight};
   --font-size: #{$font-size};
   --headline-font-size: #{$headline-font-size};
-  --default-color: #{$default-color};
-  --primary-color: #{$primary-color};
-  --secondary-color: #{$secondary-color};
-  --info-color: #{$info-color};
-  --success-color: #{$success-color};
-  --warning-color: #{$warning-color};
-  --danger-color: #{$danger-color};
-  --default-link-color: #{$default-link-color};
-  --visited-link-color: #{$visited-link-color};
-  --hovered-link-color: #{$hovered-link-color};
+  --margin: #{$margin};
+  --padding: #{$padding};
+  --border-width: #{$border-width};
+  --border-radius: #{$border-radius};
+  --border-color: #{$border-color};
 }

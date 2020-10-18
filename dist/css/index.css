@@ -133,16 +133,11 @@ table {
   --font-weight: normal;
   --font-size: 16px;
   --headline-font-size: 2rem;
-  --default-color: #515151;
-  --primary-color: #2957ab;
-  --secondary-color: #cc64bd;
-  --info-color: #6cbbe1;
-  --success-color: #5b9e5b;
-  --warning-color: #df9f45;
-  --danger-color: #d75c58;
-  --default-link-color: #2962ab;
-  --visited-link-color: #794599;
-  --hovered-link-color: #cc0000; }
+  --margin: 15px;
+  --padding: 15px;
+  --border-width: 1px;
+  --border-radius: 3px;
+  --border-color: #d3d3d3; }
 
 html, body {
   font-family: var(--font-family, Tahoma, sans-serif);
@@ -449,12 +444,12 @@ h6 {
 
 .block {
   background-color: #ffffff;
-  padding: 15px;
+  padding: var(--padding, 15px);
   box-sizing: border-box;
-  border-width: 1px;
+  border-width: var(--border-width, 1px);
   border-style: solid;
-  border-color: #d3d3d3;
-  border-radius: 3px; }
+  border-color: var(--border-color, #d3d3d3);
+  border-radius: var(--border-radius, 3px); }
 
 .headline {
   text-transform: uppercase;

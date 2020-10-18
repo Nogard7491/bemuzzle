@@ -2,12 +2,12 @@
 
 .block {
   background-color: $light-color;
-  padding: $padding;
+  padding: var(--padding, #{$padding});
   box-sizing: border-box;
   border: {
-    width: $border-width;
+    width: var(--border-width, #{$border-width});
     style: solid;
-    color: $border-color;
-    radius: $border-radius;
+    color: var(--border-color, #{$border-color});
+    radius: var(--border-radius, #{$border-radius});
   }
 }
